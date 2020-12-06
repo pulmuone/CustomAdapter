@@ -5,8 +5,6 @@ import android.os.Bundle
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
-import android.widget.Button
-import android.widget.TextView
 import com.example.customadapter.databinding.ActivityMainBinding
 import com.example.customadapter.databinding.RowBinding
 
@@ -85,7 +83,6 @@ class MainActivity : AppCompatActivity() {
                 rowButton2.setOnClickListener {
                     binding.textView.text = "두 번째 버튼을 눌렀습니다.${it.tag}"
                 }
-
             }
 
             //return rowView!!
